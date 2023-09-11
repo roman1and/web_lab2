@@ -1,0 +1,36 @@
+.matrix {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    display: grid;
+    margin-left: 100px;
+    grid-template-columns: repeat(6, 80px);
+
+}
+.square{
+
+    width: 80px;
+    height: 80px;
+    border: 1px solid;
+
+}
+.square p{
+    margin: 0px;
+    height: 100%;
+    margin-left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-color{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.change-color p {
+    font-size: 28px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.change-color input{
+    width: 480px;
+}
